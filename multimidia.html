@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimídia</title>
+    <link rel="stylesheet" href="projeto-glass-html5/_css/estilo.css" />
+    <link rel="stylesheet" href="projeto-glass-html5/_css/media.css" />
+  </head>
+  <script src="projeto-glass-html5/_javascript/funcoes.js"></script>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <hgroup>
+          <h1>Google Glass</h1>
+          <h2>A revolução Google está chegando!</h2>
+        </hgroup>
+
+        <figure>
+          <img
+            id="icone"
+            src="projeto-glass-html5/_imagens/glass-oculos-preto-peq.png"
+          />
+        </figure>
+        <nav id="menu">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li
+              onmouseover="mudaFoto('projeto-glass-html5/_imagens/home.png')"
+              onmouseout="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+            >
+              <a href="index.html">Home</a>
+            </li>
+
+            <li
+              onmouseover="mudaFoto('projeto-glass-html5/_imagens/especificacoes.png')"
+              onmouseout="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+            >
+              <a href="specs.html">Especificações</a>
+            </li>
+
+            <li
+              onmouseover="mudaFoto('projeto-glass-html5/_imagens/fotos.png')"
+              onmouseout="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+            >
+              <a href="fotos.html">Fotos</a>
+            </li>
+
+            <li
+              onmouseover="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+              onmouseout="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+            >
+              <a href="multimidia.html">Multimídia</a>
+            </li>
+
+            <li
+              onmouseover="mudaFoto('projeto-glass-html5/_imagens/contato.png')"
+              onmouseout="mudaFoto('projeto-glass-html5/_imagens/multimidia.png')"
+            >
+              <a href="fale-conosco.html">Fale Conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="corpo-full">
+        <article id="noticia-principal">
+          <header id="cabecalho-artigo">
+            <hgroup>
+              <h3>Glass > Multimídia</h3>
+              <h1>Sons e Vídeos</h1>
+              <h2>por Sophia Muraro</h2>
+              <h3 id="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+          </header>
+          <div id="tv-radio">
+            <audio id="musica" controls="controls">
+              <source
+                src="projeto-glass-html5/_media/2009-lovers-carvings-bibio.mp3"
+                type="audio/mpeg"
+              />
+              Não foi possível carregar o áudio.
+            </audio>
+            <video
+              id="filme"
+              src="projeto-glass-html5/_media/getting-started.mp4"
+              controls
+              poster="projeto-glass-html5/_imagens/video-mini03.jpg"
+            >
+              Não foi possível carregar o vídeo.
+            </video>
+          </div>
+        </article>
+      </section>
+      <footer id="rodape">
+        Copyright &copy; 2023 - by Sophia Muraro <br />
+        <a href="https://www.facebook.com">Facebook</a>
+        |
+        <a href="https://twitter.com">Twitter</a>
+      </footer>
+    </div>
+  </body>
+</html>
